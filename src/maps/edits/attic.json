@@ -1,0 +1,40 @@
+{
+  "props": {
+    "rockingchair@12,9": {
+      "x": 19,
+      "y": 6,
+      "z": 1
+    },
+    "sheet@31,6": {
+      "text": [
+        "A sheet-covered cabinet.",
+        "You notice a picture frame laying on top of the sheet, turned over.",
+        "You pick it up, but in the dark you can't see very well what's on it.",
+        "It appears to be a portrait of two figures next to eachother, presumably a couple.",
+        "You see that a couple of tabs on the back, keeping the picture in place, have been unlocked."
+      ]
+    }
+  },
+  "added": [
+    {
+      "uid": "mvjuybjrlveu",
+      "t": "wallhole",
+      "x": 10,
+      "y": 5
+    },
+    {
+      "t": "wallhole",
+      "x": 9,
+      "y": 8,
+      "dx": -1,
+      "dy": -3,
+      "solid": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "uid": "mvjuyhuv0p6g"
+    }
+  ]
+}

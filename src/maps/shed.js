@@ -1,0 +1,37 @@
+// The tool shed in the backyard: a small room, centred with black around it.
+export default {
+  id: 'shed',
+  name: 'Tool Shed',
+  theme: { floor: 'darkwood', wall: 'planks' },
+  ambient: 0.62,
+  tiles: [
+    '############',
+    '#WWWWWWWWWW#',
+    '#WWWWWWWWWW#',
+    '#..........#',
+    '#..........#',
+    '#..........#',
+    '#..........#',
+    '#..........#',
+    '#..........#',
+    '############',
+  ],
+  props: [
+    { t: 'exit_bottom', x: 5, y: 9, wood: true, text: 'The door back out to the yard.' },
+    { t: 'garden_tools', x: 2, y: 1, text: 'A rake, a shovel and a hoe. The shovel is caked with dirt... and something else.' },
+    { t: 'window', x: 7, y: 1, text: 'A tiny window. The glass is cracked.' },
+    { t: 'cobweb', x: 10, y: 1, corner: 'tr' },
+    { t: 'sack', x: 1, y: 3, hide: true, text: 'A sack of fertilizer. It smells like death.' },
+    { t: 'sack', x: 2, y: 3, hide: true, text: 'A lumpy sack. I would rather not know what is in it.' },
+    { t: 'shelf_metal', x: 8, y: 3, text: 'Shelves with seed packets, twine and rusty shears.' },
+    { t: 'pots', x: 1, y: 7, text: 'Stacked clay pots.' },
+    { t: 'stump', x: 4, y: 5, text: ['A chopping stump with an axe buried in it.', 'The wood around the blade is stained dark red.'] },
+    { t: 'wheelbarrow', x: 7, y: 6, text: 'A rusty wheelbarrow. There are drag marks leading to it.' },
+    { t: 'blood', x: 5, y: 6, tw: 2, kind: 'drag' },
+    { t: 'debris', x: 9, y: 8, n: 3 },
+  ],
+  doors: [
+    { x: 5, y: 9, to: 'backyard', at: [6, 17, 'down'] },
+    { x: 6, y: 9, to: 'backyard', at: [6, 17, 'down'] },
+  ],
+};

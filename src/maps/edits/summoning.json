@@ -1,0 +1,263 @@
+{
+  "props": {
+    "altar@9,3": {
+      "text": [
+        "An altar draped in black cloth.",
+        "A skull, a dagger, and a book written in blood.",
+        "You notice something metal underneath the skull."
+      ],
+      "scale": 1.3
+    },
+    "pentagram@7,5": {
+      "y": 6
+    },
+    "candle@7,10": {
+      "y": 11,
+      "solid": false,
+      "scale": 1.2,
+      "dx": 1,
+      "dy": -5
+    },
+    "candle@12,10": {
+      "y": 11,
+      "solid": false,
+      "scale": 1.2,
+      "dy": -4
+    },
+    "candle@13,6": {
+      "y": 7,
+      "solid": false,
+      "scale": 1.2
+    },
+    "candle@6,6": {
+      "y": 7,
+      "solid": false,
+      "scale": 1.2
+    },
+    "candle@9,4": {
+      "dx": 8,
+      "dy": 13,
+      "solid": false,
+      "scale": 1.2
+    },
+    "cage@15,3": {
+      "x": 16,
+      "scale": 1.15
+    },
+    "bookshelf@2,2": {
+      "y": 1,
+      "dx": -17,
+      "dy": 104,
+      "wall": "right",
+      "scale": 0.95
+    },
+    "bones@14,11": {
+      "text": null
+    }
+  },
+  "added": [
+    {
+      "t": "skull",
+      "x": 18,
+      "y": 7,
+      "dx": -9,
+      "dy": 5,
+      "uid": "mvfcuem98i4z"
+    },
+    {
+      "t": "skull",
+      "x": 4,
+      "y": 5,
+      "uid": "mvfcvl4hvg9d"
+    },
+    {
+      "t": "bookshelf",
+      "x": 2,
+      "y": -1,
+      "dark": true,
+      "occult": true,
+      "text": [
+        "Books bound in something that is not leather.",
+        "Skulls and jars fill the gaps between them."
+      ],
+      "dx": -17,
+      "dy": 104,
+      "wall": "right",
+      "scale": 0.95,
+      "uid": "mvfcwa9kkjw9"
+    },
+    {
+      "t": "bookshelf",
+      "x": 2,
+      "y": -3,
+      "dark": true,
+      "occult": true,
+      "text": "A bookshelf full of witchcraft materials, crystals, and black candles.",
+      "dx": -17,
+      "dy": 104,
+      "wall": "right",
+      "scale": 0.95,
+      "uid": "mvfcwdiwmgwr"
+    },
+    {
+      "t": "bookshelf",
+      "x": 3,
+      "y": -5,
+      "dark": true,
+      "occult": true,
+      "text": [
+        "Books bound in something that is not leather.",
+        "Skulls and jars fill the gaps between them."
+      ],
+      "dx": -17,
+      "dy": 104,
+      "scale": 0.95,
+      "uid": "mvfcwhlkgaj3"
+    },
+    {
+      "uid": "mvfcxvg9mmmz",
+      "t": "debris",
+      "x": 17,
+      "y": 6
+    },
+    {
+      "t": "debris",
+      "x": 15,
+      "y": 8,
+      "uid": "mvfcxwhsmacw"
+    },
+    {
+      "uid": "mvfcxz886aim",
+      "t": "debris",
+      "x": 16,
+      "y": 8
+    },
+    {
+      "uid": "mvfcy081fsk5",
+      "t": "debris",
+      "x": 17,
+      "y": 8
+    },
+    {
+      "t": "debris",
+      "x": 15,
+      "y": 10,
+      "uid": "mvfcy11s7i6u"
+    },
+    {
+      "t": "debris",
+      "x": 10,
+      "y": 13,
+      "uid": "mvfcy2gw6ikx"
+    },
+    {
+      "t": "debris",
+      "x": 7,
+      "y": 12,
+      "uid": "mvfcy3o0ozxj"
+    },
+    {
+      "t": "debris",
+      "x": 4,
+      "y": 10,
+      "uid": "mvfcy5ogtujb"
+    },
+    {
+      "uid": "mvfcy6p4iu42",
+      "t": "debris",
+      "x": 5,
+      "y": 10
+    },
+    {
+      "t": "debris",
+      "x": 3,
+      "y": 7,
+      "uid": "mvfcy7ftivx7"
+    },
+    {
+      "t": "debris",
+      "x": 4,
+      "y": 6,
+      "uid": "mvfcy8nsseev"
+    },
+    {
+      "t": "debris",
+      "x": 2,
+      "y": 9,
+      "uid": "mvfcyczd1834"
+    },
+    {
+      "t": "debris",
+      "x": 2,
+      "y": 10,
+      "uid": "mvfcye765267"
+    },
+    {
+      "t": "debris",
+      "x": 1,
+      "y": 13,
+      "uid": "mvfcyf94jlb0"
+    },
+    {
+      "t": "ribcage",
+      "x": 17,
+      "y": 12,
+      "scale": 1.1,
+      "rot": 29,
+      "uid": "mvfcylg9iyw6"
+    },
+    {
+      "uid": "mvfczbflthos",
+      "t": "wallhole",
+      "x": 14,
+      "y": 1
+    },
+    {
+      "t": "cobweb_big",
+      "x": 17,
+      "y": 1,
+      "rot": 90,
+      "uid": "mvfczuc1wcu5"
+    },
+    {
+      "t": "cobweb",
+      "x": 1,
+      "y": 9,
+      "dy": 6,
+      "rot": -90,
+      "uid": "mvfd06vd0odw"
+    },
+    {
+      "t": "rug_rolled",
+      "x": 14,
+      "y": 3,
+      "z": 13,
+      "scale": 1.2,
+      "dx": 18,
+      "dy": 2,
+      "text": "A rolled up rug",
+      "uid": "mvfd0tkhjkm6"
+    },
+    {
+      "t": "mannequin",
+      "x": 15,
+      "y": 7,
+      "dx": -86,
+      "dy": 13,
+      "scale": 1.2,
+      "uid": "mvfd1f9tcqjl"
+    },
+    {
+      "uid": "mvfd1xrtncf6",
+      "t": "toolbox",
+      "x": 11,
+      "y": 3
+    },
+    {
+      "uid": "mvfd25i1yh41",
+      "t": "web",
+      "x": 4,
+      "y": 3
+    }
+  ]
+}

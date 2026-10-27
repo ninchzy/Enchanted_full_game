@@ -1,0 +1,41 @@
+{
+  "props": {
+    "door_front@9,1": {
+      "text": [
+        "The front door is poorly boarded shut, but it had a very big lock on it.\nI won't get out without a key.",
+        "There is also some kind of mechanism barely visible in the right corner of the door.",
+        "It looks like a switch for something."
+      ]
+    },
+    "door_side@12,16": {
+      "text": [
+        "Someone carved an X into this door.",
+        "It lokds very worn out and dirty."
+      ]
+    },
+    "door_side@12,10": {
+      "text": null
+    },
+    "door_side@6,10": {
+      "text": null
+    },
+    "door_side@6,16": {
+      "text": "There is a bloody smear on it."
+    },
+    "door_side@6,7": {
+      "text": null
+    },
+    "door_side@12,7": {
+      "text": null
+    }
+  },
+  "added": [
+    {
+      "t": "mannequin",
+      "x": 31,
+      "y": 12,
+      "scale": 1.21,
+      "uid": "mvf322jo1r4p"
+    }
+  ]
+}

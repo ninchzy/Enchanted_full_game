@@ -1,0 +1,12 @@
+{
+  "props": {
+    "candle@15,8": {
+      "x": 17,
+      "y": 13
+    },
+    "trunk@9,3": {
+      "text": "An old trunk. There's a dead rat inside."
+    }
+  },
+  "added": []
+}

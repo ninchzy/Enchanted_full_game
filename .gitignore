@@ -1,0 +1,7 @@
+node_modules/
+dist/
+release/
+
+# the full 10-minute recording (112 MB, over GitHub's 100 MB limit); the game only uses
+# the loop cut from it by tools/cut-loop.mjs
+sounds/summoning room and hidden room (0.44) 3minn.wav

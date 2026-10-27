@@ -1,0 +1,14 @@
+{
+  "music": 0.45,
+  "ritualRoom": 0.45,
+  "rummage": 0.75,
+  "heavystep": 0.8,
+  "push": 0.95,
+  "master": 0.85,
+  "mainDoor": 0.65,
+  "portalHum": 0.1,
+  "end": 1.2,
+  "gameOver": 1.55,
+  "bonesFall": 0.75,
+  "stepHollow": 1.6
+}

@@ -1,0 +1,152 @@
+{
+  "props": {
+    "rug@6,7": {
+      "x": 14,
+      "y": 2,
+      "scale": 0.5
+    },
+    "table_small@8,8": {
+      "scale": 1.15
+    },
+    "sofa_back@13,6": {
+      "x": 8,
+      "dx": -6,
+      "scale": 1.25,
+      "flip": true
+    },
+    "armchair@6,4": {
+      "x": 11,
+      "y": 8,
+      "scale": 1.2,
+      "rot": 90,
+      "solid": true,
+      "dx": -6,
+      "dy": -2
+    },
+    "plant@18,3": {
+      "x": 14,
+      "y": 2,
+      "dx": -8,
+      "dy": 7,
+      "z": 10,
+      "solid": {
+        "x": -1,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    "tv@14,3": {
+      "x": 6,
+      "y": 9,
+      "wall": "left",
+      "scale": 0.75,
+      "dy": -4
+    },
+    "piano@16,3": {
+      "scale": 1.15
+    },
+    "fireplace@8,2": {
+      "scale": 1.1
+    },
+    "window@6,1": {
+      "dx": 6
+    },
+    "blood@4,10": {
+      "x": 17,
+      "y": 12
+    }
+  },
+  "added": [
+    {
+      "t": "rug",
+      "x": 7,
+      "y": 7,
+      "tw": 6,
+      "th": 4,
+      "color": 5981750,
+      "scale": 1.57,
+      "uid": "mvf263tuk56b"
+    },
+    {
+      "t": "chair",
+      "x": 18,
+      "y": 4,
+      "rot": 14,
+      "scale": 1.15,
+      "dx": -3,
+      "uid": "mvf26wlu1v6m"
+    },
+    {
+      "t": "window",
+      "x": 12,
+      "y": 1,
+      "text": "Heavy curtains, rotten through. Nothing but darkness outside.",
+      "dx": 6,
+      "uid": "mvf2b0jevqqh"
+    },
+    {
+      "t": "window",
+      "x": 14,
+      "y": 1,
+      "text": "Heavy curtains, rotten through. Nothing but darkness outside.",
+      "dx": 6,
+      "uid": "mvf2b3iqrjex"
+    },
+    {
+      "t": "picture_side",
+      "x": 28,
+      "y": 10,
+      "uid": "mvf2c71et2fz"
+    },
+    {
+      "t": "table_small",
+      "x": 13,
+      "y": 2,
+      "scale": 0.6,
+      "dx": -1,
+      "uid": "mvf2d18yz0ll"
+    },
+    {
+      "t": "bookshelf",
+      "x": 1,
+      "y": 8,
+      "text": "A shelf with books covered in a thick layer of dust. Looks like they have not been touched in ages.",
+      "wall": "right",
+      "uid": "mvf3699v85db"
+    },
+    {
+      "t": "bookshelf",
+      "x": 1,
+      "y": 10,
+      "text": "A shelf with books covered in a thick layer of dust. Looks like they have not been touched in ages.",
+      "wall": "right",
+      "uid": "mvf36g9fdnzt"
+    },
+    {
+      "t": "bookshelf",
+      "x": 1,
+      "y": 12,
+      "text": "A shelf with books covered in a thick layer of dust. Looks like they have not been touched in ages.",
+      "wall": "right",
+      "uid": "mvf36iuche1f"
+    },
+    {
+      "t": "blood",
+      "x": 16,
+      "y": 4,
+      "kind": "splat",
+      "dy": -8,
+      "uid": "mvf37sfnn230"
+    },
+    {
+      "t": "blood",
+      "x": 18,
+      "y": 12,
+      "kind": "splat",
+      "dx": -265,
+      "dy": 15,
+      "uid": "mvf382bwag3o"
+    }
+  ]
+}

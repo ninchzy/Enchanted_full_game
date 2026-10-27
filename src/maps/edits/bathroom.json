@@ -1,0 +1,78 @@
+{
+  "props": {
+    "bathtub@6,9": {
+      "y": 12,
+      "scale": 1.1,
+      "dx": 2
+    },
+    "bucket@6,13": {
+      "x": 18,
+      "y": 5,
+      "text": "A bucket and a mop. The water inside is red."
+    },
+    "sink@12,3": {
+      "scale": 1.15
+    },
+    "mirror@12,1": {
+      "dy": -3
+    },
+    "medcab@14,1": {
+      "text": [
+        "A medicine cabinet.",
+        "Empty pill bottles lay on the shelves. Some have fallen on the ground."
+      ]
+    },
+    "toilet@15,3": {
+      "scale": 1.26,
+      "dy": -5
+    }
+  },
+  "added": [
+    {
+      "t": "doormat",
+      "x": 7,
+      "y": 11,
+      "scale": 1.65,
+      "dy": 10,
+      "uid": "mvf1myltphix"
+    },
+    {
+      "t": "doormat",
+      "x": 6,
+      "y": 11,
+      "scale": 1.65,
+      "dy": 10,
+      "uid": "mvf1noohn5pr"
+    },
+    {
+      "uid": "mvf1nswpp434",
+      "t": "doormat",
+      "x": 8,
+      "y": 11,
+      "scale": 1.65,
+      "dy": 10
+    },
+    {
+      "t": "doormat",
+      "x": 12,
+      "y": 3,
+      "scale": 1.65,
+      "dy": 10,
+      "uid": "mvf1nxo1unm8"
+    },
+    {
+      "t": "drain",
+      "x": 6,
+      "y": 9,
+      "uid": "mvf7rt4oyp6y"
+    },
+    {
+      "t": "wall_breach",
+      "x": 7,
+      "y": 7,
+      "flip": true,
+      "uid": "mvf7s7w8pi58",
+      "hide": true
+    }
+  ]
+}

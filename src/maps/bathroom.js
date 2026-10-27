@@ -1,0 +1,45 @@
+import { sideDoor } from './util.js';
+
+// L-shaped: a tall part on the right, and a lower part reaching to the left.
+export default {
+  id: 'bathroom',
+  name: 'Bathroom',
+  theme: { floor: 'bathtile', wall: 'tilewall' },
+  ambient: 0.58,
+  tiles: [
+    '          ##########',
+    '          #WWWWWWWW#',
+    '          #WWWWWWWW#',
+    '          #........#',
+    '          #........#',
+    '          #........#',
+    '     ######........#',
+    '     #WWWWW........#',
+    '     #WWWWW........#',
+    '     #........o....#',
+    '     #.......ooo...#',
+    '     #.......xoo...#',
+    '     #..........x..#',
+    '     #.............#',
+    '     ###############',
+  ],
+  props: [
+    { t: 'door_side', x: 19, y: 11, side: 'R', text: 'The door back to the hallway.' },
+    { t: 'mirror', x: 12, y: 1, blood: true, text: ['A cracked mirror, smeared with something red.', 'My reflection stares back at me with empty sockets. Well. That is just my face.'] },
+    { t: 'sink', x: 12, y: 3, text: 'The faucet coughs out a single drop of brown water.' },
+    { t: 'medcab', x: 14, y: 1, text: 'A medicine cabinet. Empty pill bottles. All of them.' },
+    { t: 'pills', x: 14, y: 3 }, // fallen out of the cabinet
+    { t: 'toilet', x: 15, y: 3, text: 'A filthy toilet. The lid is cracked clean in half.' },
+    { t: 'towel', x: 16, y: 1, text: 'A stiff, dirty towel. There is a red handprint on it.' },
+    { t: 'window', x: 17, y: 1, text: 'A small frosted window. It is pitch black outside.' },
+    { t: 'cobweb', x: 18, y: 1, corner: 'tr' },
+    { t: 'bathtub', x: 6, y: 9, hide: true, text: ['A bathtub filled with murky water.', 'Something red has settled at the bottom. I am not reaching in there.'] },
+    { t: 'cobweb', x: 6, y: 7, corner: 'tl' },
+    { t: 'bucket', x: 6, y: 13, text: 'A bucket and a mop. The water inside is pink.' },
+    { t: 'blood', x: 9, y: 11, kind: 'pool', tw: 2, th: 1, text: 'A puddle of blood, still wet.' },
+    { t: 'blood', x: 10, y: 12, tw: 4, kind: 'drag' },
+    { t: 'debris', x: 16, y: 10, n: 5 },
+    { t: 'debris', x: 12, y: 5, n: 3 },
+  ],
+  doors: [...sideDoor(19, 11, 'hall_g', [7, 8, 'right'])],
+};

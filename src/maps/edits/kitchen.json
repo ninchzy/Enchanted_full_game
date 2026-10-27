@@ -1,0 +1,57 @@
+{
+  "props": {
+    "picture@11,6": {
+      "scale": 1.35
+    },
+    "fridge@8,8": {
+      "scale": 1.3,
+      "dx": 2
+    },
+    "chair@10,12": {
+      "y": 13,
+      "scale": 1.2
+    },
+    "chair@12,11": {
+      "x": 13,
+      "y": 12
+    },
+    "table@9,10": {
+      "y": 11,
+      "scale": 1.25
+    },
+    "chair@10,9": {
+      "y": 10,
+      "scale": 1.2
+    },
+    "crate@18,13": {
+      "scale": 1.2
+    },
+    "barrel@15,12": {
+      "scale": 1.3
+    }
+  },
+  "added": [
+    {
+      "uid": "mvf1rkw13q3g",
+      "t": "cobweb_big",
+      "x": 15,
+      "y": 6
+    },
+    {
+      "t": "cobweb",
+      "x": 17,
+      "y": 13,
+      "rot": -180,
+      "uid": "mvf1rq0x5mtt"
+    },
+    {
+      "t": "rug",
+      "x": 3,
+      "y": 11,
+      "scale": 3.6,
+      "dy": 6,
+      "dx": 4,
+      "uid": "mvf1sd7dpiz4"
+    }
+  ]
+}

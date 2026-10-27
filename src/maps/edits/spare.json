@@ -1,0 +1,119 @@
+{
+  "props": {
+    "mannequin@17,7": {
+      "y": 8,
+      "scale": 1.15
+    },
+    "picture@9,1": {
+      "scale": 1.7
+    },
+    "trunk@10,3": {
+      "text": "A heavy old trunk. It's dusty inside.",
+      "scale": 1.15
+    },
+    "crate@17,3": {
+      "scale": 1.2,
+      "dx": 11
+    },
+    "box@16,4": {
+      "x": 11,
+      "y": 7
+    },
+    "crate@16,3": {
+      "scale": 1.2,
+      "dx": 8
+    },
+    "rockingchair@14,8": {
+      "x": 13,
+      "y": 4,
+      "scale": 1.15,
+      "rot": 1,
+      "dx": -6,
+      "dy": 5
+    }
+  },
+  "added": [
+    {
+      "t": "mannequin",
+      "x": 15,
+      "y": 10,
+      "text": [
+        "A mannequin. One of its arms has been snapped off.",
+        "Its blank face is turned toward the bed."
+      ],
+      "scale": 1.15,
+      "uid": "mvf3gkcsf6s4"
+    },
+    {
+      "t": "mannequin",
+      "x": 17,
+      "y": 12,
+      "text": [
+        "A mannequin. One of its arms has been snapped off.",
+        "Its blank face is turned toward the bed."
+      ],
+      "scale": 1.15,
+      "uid": "mvf3gmz0eut5"
+    },
+    {
+      "t": "mannequin",
+      "x": 12,
+      "y": 13,
+      "text": [
+        "A mannequin. One of its arms has been snapped off.",
+        "Its blank face is turned toward the bed."
+      ],
+      "scale": 1.15,
+      "uid": "mvf3gpr08tc3"
+    },
+    {
+      "t": "box",
+      "x": 8,
+      "y": 9,
+      "open": true,
+      "text": "An open box. Empty, except for some hair.",
+      "uid": "mvf3h02sx6q5"
+    },
+    {
+      "t": "box",
+      "x": 18,
+      "y": 13,
+      "open": true,
+      "text": "An open box. Empty, except for some hair.",
+      "uid": "mvf3h1msfpor"
+    },
+    {
+      "uid": "mvf3hjbgtiru",
+      "t": "web",
+      "x": 15,
+      "y": 3
+    },
+    {
+      "t": "web",
+      "x": 28,
+      "y": 14,
+      "uid": "mvf3hnloaa2s"
+    },
+    {
+      "t": "tv",
+      "x": 31,
+      "y": 8,
+      "uid": "mvf3hx5wiznr"
+    },
+    {
+      "t": "rug_rolled",
+      "x": 6,
+      "y": 7,
+      "scale": 1.15,
+      "solid": {
+        "x": 1,
+        "y": 0,
+        "w": 1,
+        "h": 2
+      },
+      "rot": 90,
+      "text": "A rolled up rug.",
+      "uid": "mvf3id250elx"
+    }
+  ]
+}

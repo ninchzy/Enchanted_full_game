@@ -1,0 +1,19 @@
+ENCHANTED
+=========
+
+1. Unzip this whole folder somewhere (don't run it from inside the zip).
+2. Double-click Play.bat.
+   A black window opens and the game starts in your web browser.
+   Keep the black window open while you play; close it when you're done.
+
+   If Windows says "Windows protected your PC", click "More info", then "Run anyway".
+
+Controls
+  W A S D ........ walk
+  Shift .......... run (careful: he can hear you)
+  SPACE .......... look at things, talk, confirm
+  TAB ............ inventory
+  ESC ............ menu / back
+
+Your saves are kept in the browser, so play in the same browser each time.
+Turn your sound on.

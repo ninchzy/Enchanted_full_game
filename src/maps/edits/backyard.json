@@ -1,0 +1,68 @@
+{
+  "props": {
+    "tree@13,14": {
+      "y": 15,
+      "scale": 1.3
+    },
+    "tree@19,14": {
+      "y": 13,
+      "scale": 1.3
+    },
+    "tree@17,8": {
+      "y": 4,
+      "text": "A dead tree.",
+      "scale": 1.3
+    },
+    "tree@19,4": {
+      "x": 3,
+      "y": 10,
+      "scale": 1.3
+    },
+    "shed@4,13": {
+      "scale": 1.3
+    },
+    "well@15,13": {
+      "x": 16,
+      "y": 12,
+      "text": [
+        "An old stone well.",
+        "Looks like it hasn't been used in decades.",
+        "It is too dark to see the bottom.",
+        "You do see something glistening though... Wonder if there is a way to reach it."
+      ]
+    },
+    "tombstone@20,5": {
+      "x": 19,
+      "y": 3
+    },
+    "tombstone@3,5": {
+      "x": 4,
+      "y": 3
+    },
+    "grave_hole@3,6": {
+      "x": 4,
+      "y": 4,
+      "scale": 1.21
+    },
+    "dirt_pile@5,5": {
+      "y": 3
+    },
+    "blood@14,12": {
+      "x": 17,
+      "y": 9
+    }
+  },
+  "added": [
+    {
+      "t": "stump",
+      "x": 18,
+      "y": 9,
+      "text": [
+        "A tree stump with a heavy-duty axe.\nOn the stump you notice something that looks like little shards of glass.",
+        "The axe is very dull, and even if it can come in handy, I'm too weak to carry it with me.",
+        "I can come back here if need be."
+      ],
+      "uid": "mvf3l1gttsxu"
+    }
+  ]
+}
