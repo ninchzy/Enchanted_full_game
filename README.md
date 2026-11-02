@@ -6,6 +6,11 @@ An RPG Maker style horror game made with PixiJS, packaged as a Windows app with 
 | --- | --- |
 | ![Looking at the grandfather clock in the hallway](screenshots/interacting.png) | ![The kitchen, with the hooded figure by the door](screenshots/kitchen.png) |
 
+## Install
+'''
+Click here to install the game https://github.com/ninchzy/Enchanted_full_game/releases/tag/v0.1.0
+'''
+
 ## Run
 
 ```
